@@ -5,11 +5,24 @@ namespace ClassLibrary
 {
     public class Empleador:IUsuario, ICalificacion
     {
-        //Tener Telefono
+        
+        public string Telefono{get;set;}
         //Tener Direccion
+        public string Direccion{get;set;}
+        
         //Tener CalificacionTotal
+        public int CalificacionTotal{get;set;}
         //Tener lista de Calificaciones
-        //Agregar Calificacion
-        //Calcular CalificacionTotal
+        
+        public void AgregarCalificacion(Calificacion)
+        {
+            Calificaciones.Add(Calificacion)
+            //Agregar Calificacion
+        }
+        
+        public void CalcularCalificacionTotal()
+        {
+            //Calcular CalificacionTotal
+        }
     }
 }

@@ -1,6 +1,6 @@
 namespace ClassLibrary
 {   
-     public interface IUsuario
+    public interface IUsuario
     {
         //Tener Nombre
         //Tener Apellido
