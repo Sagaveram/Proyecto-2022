@@ -3,9 +3,13 @@ using System;
 
 namespace ClassLibrary
 {
-    public class Administrador:IUsuario
+    public class Administrador:Persona,IUsuario
     {
        //Conocer Rol
-       Type of 
+       public Administrador()
+       {
+
+       }
+       //override CRUD de persona
     }
 }

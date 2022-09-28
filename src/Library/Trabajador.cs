@@ -1,9 +1,10 @@
 using System;
-using System.Collections;
+using System.Collections.Generic;
+
 
 namespace ClassLibrary
 {
-    public class Trabajador:IUsuario, ICalificacion
+    public class Trabajador:Persona,IUsuario, ICalificacion
     {
         //Tener Telefono
         public string Telefono{get;set;}

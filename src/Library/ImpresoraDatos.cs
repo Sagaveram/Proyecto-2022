@@ -5,6 +5,7 @@ namespace ClassLibrary
 
     public class ImpresoraDatos:IDatos
     {
+        
         //Tener url de FileUsuario
         //Tener url de FileServicio
         //Tener url de FileBot

@@ -10,21 +10,21 @@ namespace ClassLibrary
         //Tener Apellido
         public string Email{get;set;}
         //Tener Email
-        public void CrearPersona()
+        public virtual void CrearPersona()
         {
 
         }
         //CRUD Rol
-        public void ActualizarPersona()
+        public virtual void ActualizarPersona()
         {
 
         }
-        public void BorrarPersona()
+        public virtual void BorrarPersona()
         {
 
         }
         //Registrar Rol
-        public void Registrar()
+        public virtual void RegistrarPersona()
         {
 
         }
