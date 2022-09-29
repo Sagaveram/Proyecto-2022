@@ -12,7 +12,8 @@ namespace ClassLibrary
         public DateTime FechaFirma{get;set;}
         public DateTime FechaCierre{get;set;}
 
-        public List<Calificacion> calificaciones=new List<Calificacion>();
+        public List<Calificacion> calificacionestrabajador=new List<Calificacion>();
+        public List<Calificacion> calificacionesempleador=new List<Calificacion>();
         public Contrato CrearContrato(Servicio servicio, Empleador empleador)
         {
             return new Contrato();
