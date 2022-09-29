@@ -6,5 +6,9 @@ namespace ClassLibrary
     {
         //Tener un Input
         //Leer lo escrito en la consola
+        public void LecturadeConsola()
+        {
+
+        }
     }
 }

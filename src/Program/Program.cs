@@ -9,14 +9,10 @@ using ClassLibrary;
 
 namespace ConsoleApplication
 {
-    /// <summary>
-    /// Programa de consola de demostración.
-    /// </summary>
+
     public static class Program
     {
-        /// <summary>
-        /// Punto de entrada al programa principal.
-        /// </summary>
+
         public static void Main()
         {
             
