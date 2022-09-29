@@ -1,3 +1,10 @@
+Integrantes:
+Santiago Avelino
+Andrés Arancio
+Ignacio Perez
+Ivan Lomando
+Paola Giusiana
+
 # Qué hay configurado en esta plantilla
 
 1. Un proyecto de biblioteca (creado con [`dotnet new classlib --name Library`](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore22)) en la carpeta `src\Library`
